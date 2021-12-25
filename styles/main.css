@@ -25,6 +25,7 @@ body {
 .right-container {
     display: flexbox;
     width: 50%;
+    height: 20px;
 }
 
 .main-right-container {
