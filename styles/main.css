@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+.page {
+    display: flex;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin: 0;
+    color: black;
+}
+
+.left-container {
+    display: flexbox;
+    width: 50%;
+}
+
+.right-container {
+    display: flexbox;
+    width: 50%;
+}
+
+.main-right-container {
+    background-color: #A16EF9;
+    height: 1081px;
+}
+
+.right-text {
+    margin: 0;
+}
+
+.main-logo {
+    width: 90px;
+    height: 95px;
+    margin-left: 50%;
+    margin-top: 60px;
+}
+
+.main-content {
+    display: block;
+    margin: 0;
+    margin-top: 70px;
+    margin-left: 195px;
+}
+
+.main-heading {
+    margin: 0;
+    font-size: 52px;
+
+}
+
+.main-text {
+    display: block;
+    color: #A4A4A4;
+    margin: 0;
+    margin-top: 18px;
+    margin-bottom: 75px;
+}
+
+.email-text {
+    font-size: 24px;
+    margin: 0;
+    margin-left: 195px;
+    margin-bottom: 30px;
+}
+
+.pw-text {
+    font-size: 24px;
+    margin: 0;
+    margin-left: 195px;
+    margin-bottom: 30px;
+}
+
+.vname {
+    width: 620px;
+    height: 90px;
+    border-radius: 60px;
+    font-size: 24px;
+    padding-left: 50px;
+    color: #5D5B5B;
+    margin-left: 170px;
+    margin-bottom: 40px;
+    border: 1px solid #707070;
+    box-shadow: 0px 12px 6px -6px rgba(0,0,0,0.13);
+}
+
+.vname:focus {
+    outline: none;
+    border: 1px solid #A16EF9;
+}
+
+.password {
+    display: block;
+    width: 620px;
+    height: 90px;
+    border-radius: 60px;
+    font-size: 24px;
+    padding-left: 50px;
+    color: #5D5B5B;
+    margin-left: 170px;
+    border: 1px solid #707070;
+    box-shadow: 0px 12px 6px -6px rgba(0,0,0,0.13);
+    margin-bottom: 50px;
+}
+
+.password:focus {
+    outline: none;
+    border: 1px solid #A16EF9;
+}
+
+.under-box{
+    display: inline;
+    margin: 0;
+    margin-left: 195px;
+    font-size: 24px;
+}
+
+.forget {
+    display: inline;
+    font-weight: 700;
+    color: #A16EF9;
+    margin-left: 150px;
+    font-size: 24px;
+}
+
+.button {
+    display: block;
+    width: 620px;
+    height: 70px;
+    font-size: 24px;
+    background-color: #A16EF9;
+    text-align: center;
+    margin-left: 170px;
+    margin: 0px auto;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 12px 6px -6px rgba(0,0,0,0.13);
+}
+
+.no-account {
+    margin-left: 195px;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.not-reg {
+    display: inline;
+}
+
+.create-acc {
+    display: inline;
+    color: #A16EF9;
+    font-weight: 700;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 16px;
+    color: #ABABAB;
+    margin-top: 30px;
+}
